@@ -1,0 +1,39 @@
+.footer {
+    background: #3FA5D5;
+    padding: 40px 0;
+}
+
+.footer__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.footer__logo {
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    color: white;
+
+}
+
+.contacts__link {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: white;
+
+}
+
+.contacts__link:hover {
+    font-weight: 700;
+}
